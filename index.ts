@@ -14,7 +14,21 @@ function squareNumber(num:number):number{
 console.log(squareNumber(num))
 
 // // Type inference for a boolean
-// const isStudent = true;
+
+function isEven(num: number):boolean{
+    return num % 2 === 0;
+}
+
+console.log(isEven(10))
+console.log(isEven(11))
+
+function isAdult(age: number):boolean{
+    return age >= 18;
+}
+
+console.log(isAdult(20));
+console.log(isAdult(2));
+
 
 // // Type assignment for a string
 // const username: string = "Alice";
