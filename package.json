@@ -1,6 +1,7 @@
 {
   "name": "intro-to-ts-nakatanisae",
   "version": "1.0.0",
+  "type": "module",
   "description": "Open a terminal and run the following command to install TypeScript.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +12,6 @@
     "url": "git+https://github.com/Cornerstone-CICCC/intro-to-ts-nakatanisae.git"
   },
   "keywords": [],
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Cornerstone-CICCC/intro-to-ts-nakatanisae/issues"
   },
